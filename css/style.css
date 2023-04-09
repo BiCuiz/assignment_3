@@ -1,0 +1,412 @@
+* {
+  margin: 0px;
+}
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  /* padding: 30px 50px; */
+}
+
+/* Banner */
+.banner-bg {
+  position: relative;
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.5),
+      rgba(20, 20, 20, 0.5)
+    ),
+    url(../images/banner1.jpg);
+  background-size: cover;
+}
+#banner {
+  position: absolute;
+  width: 50%;
+  color: #fff;
+  padding-top: 164px;
+  left: 35%;
+}
+
+#banner h1 {
+  font-size: 64px;
+}
+
+#banner span {
+  font-size: 14px;
+  margin-left: 160px;
+}
+
+/* Navbar */
+#nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0 0 0 50px;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-left: 1px solid rgba(150, 150, 150, 0.3);
+  border-right: 1px solid rgba(150, 150, 150, 0.3);
+}
+
+.nav-item {
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#navbar-info {
+  padding: 0 32px;
+}
+
+#nav-ctn {
+  padding: 5px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h1 {
+  font-size: 24px;
+}
+nav span {
+  color: rgba(110, 110, 110, 0.608);
+  font-size: 14px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/* About */
+#about {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#target p {
+  font-size: 18px;
+  padding-left: 40px;
+}
+.section-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  font-size: 44px;
+  list-style-type: none;
+}
+#personal-info {
+  background: rgba(68, 68, 68, 0.16);
+}
+.info {
+  list-style: none;
+  font-size: 18px;
+}
+
+ul span {
+  font-weight: 600;
+}
+
+.icon {
+  margin-left: 40px;
+}
+.icon a:link,
+.icon a:visited {
+  color: rgb(36, 113, 186);
+}
+
+/*  Job container */
+.job-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.job-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(150, 150, 150, 0.8);
+  margin: 20px;
+  font-size: 18px;
+}
+
+.job-header {
+  color: #495057;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 20vh;
+  align-items: center;
+}
+
+.job-title {
+  text-align: center;
+  padding-left: 24px;
+  font-size: 24px;
+}
+.job-icon {
+  scale: 2.3;
+  text-align: center;
+}
+.job-info {
+  margin-left: 16px;
+  margin-right: 24px;
+}
+.job-info h3 {
+  padding: 24px 0;
+  margin-left: 24px;
+  font-size: 20px;
+}
+.time {
+  font-style: italic;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.present {
+  background-color: #228be6;
+  color: #fff;
+  border-radius: 10px;
+  padding-inline: 12px;
+}
+
+.timeline {
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+.timeline li {
+  position: relative;
+  display: flex;
+}
+
+.timeline li:before {
+  content: "";
+  position: absolute;
+  padding: 5px;
+  margin-top: 30px;
+  margin-right: 50px;
+
+  background-color: #228be6;
+  border-radius: 50%;
+}
+
+/* Hobby */
+
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.hobby p {
+  margin-top: 50px;
+}
+
+.hobby-icon {
+  margin: auto;
+  scale: 1.8;
+
+  border-radius: 50%;
+  border: 1px solid #74c0fc;
+  width: 36px;
+  height: 36px;
+}
+
+#vt1 {
+  color: #74c0fc;
+  margin: 8px 6px;
+}
+#vt2 {
+  color: #74c0fc;
+  margin: 10px 12px;
+}
+#vt3 {
+  color: #74c0fc;
+  margin: 10px 10px;
+}
+#vt4 {
+  color: #74c0fc;
+  margin: 8px 6px;
+}
+
+.job-skill p {
+  margin-left: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.skill {
+  height: 5px;
+  width: 80%;
+  background-color: #e9ecef;
+  margin: 24px;
+}
+.skill-icon {
+  text-align: right;
+  padding-right: 10px;
+  line-height: 40px;
+  color: white;
+}
+.eng {
+  height: 5px;
+  width: 60%;
+  background-color: #228be6;
+}
+.jpn {
+  height: 5px;
+  width: 20%;
+  background-color: #228be6;
+}
+
+.basic {
+  height: 5px;
+  width: 80%;
+  background-color: #228be6;
+}
+.jvs {
+  height: 5px;
+  width: 60%;
+  background-color: #228be6;
+}
+.node {
+  height: 5px;
+  width: 20%;
+  background-color: #228be6;
+}
+.bt5 {
+  height: 5px;
+  width: 40%;
+  background-color: #228be6;
+}
+
+/* Certificate */
+
+.certificate-title {
+  font-size: 36px;
+  padding: 24px 0;
+}
+
+.certificates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.certificate img {
+  width: 190px;
+  height: 120px;
+  padding: 10px;
+}
+.certificate {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 32px 0;
+}
+.certificate-info {
+  margin-left: 16px;
+}
+.certificate-info p {
+  font-size: 18px;
+  color: #adb5bd;
+  margin-top: 8px;
+}
+.certificate-info > .cer-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* Project */
+.project-title {
+  font-size: 36px;
+  padding: 24px 0;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.project {
+  border: 1px solid #adb5bd;
+}
+.project img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin: auto;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  padding: 24px;
+  margin-bottom: 0;
+  border: 1px solid #adb5bd;
+}
+
+.introduce {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #adb5bd;
+}
+.introduce div {
+  margin: 0 32px;
+}
+
+.project-info {
+  font-size: 18px;
+  margin: 16px;
+  height: 50px;
+}
+
+.project-info-title {
+  width: 25%;
+  text-align: center;
+}
+
+.container table tr {
+  border: 1px solid #adb5bd;
+}
+.container table {
+  border-collapse: collapse;
+}
+
+/* Footer */
+
+#footer ul {
+  list-style: none;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.contact {
+  display: inline-block;
+  padding: 0 24px;
+  scale: 1.5;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background-color: #228be6;
+}
+.contact a i {
+  color: #74c0fc;
+}

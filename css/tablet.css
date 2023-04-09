@@ -1,0 +1,65 @@
+@media (max-width: 1185px) {
+  .container {
+    width: 100%;
+  }
+  /* banner */
+  .banner-bg {
+    position: relative;
+    height: 60vh !important;
+    background-image: linear-gradient(
+        rgba(20, 20, 20, 0.5),
+        rgba(20, 20, 20, 0.5)
+      ),
+      url(../images/banner1.jpg);
+    background-size: cover;
+  }
+  #banner {
+    padding-top: 120px;
+  }
+
+  #banner h1 {
+    font-size: 32px;
+  }
+
+  #banner span {
+    font-size: 14px;
+    margin-left: auto;
+  }
+  /* navbar */
+
+  #navbar-info div {
+    display: none;
+  }
+
+  nav li {
+    padding: 8px 16px;
+  }
+
+  /* information */
+  .job-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hobbies {
+    margin-top: 30px;
+  }
+
+  /* certificate */
+  .certificate {
+    display: block;
+  }
+  .certificate-img {
+    margin-left: 18%;
+  }
+
+  /* project */
+  .project {
+    gap: 8px;
+  }
+  .introduce {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .introduce div {
+    grid-row: 1 / span 2;
+    margin: 0 32px;
+  }
+}

@@ -1,0 +1,224 @@
+/* Banner */
+.banner-bg {
+  position: relative;
+  height: 60vh !important;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.5),
+      rgba(20, 20, 20, 0.5)
+    ),
+    url(../images/banner1.jpg);
+  background-size: cover;
+}
+#banner {
+  position: absolute;
+  width: 50%;
+  color: #fff;
+  padding-top: 164px;
+  left: 35%;
+}
+
+#banner h1 {
+  font-size: 64px;
+}
+
+#banner span {
+  font-size: 14px;
+  margin-left: 160px;
+}
+
+/* Navbar */
+.navbar-nav {
+  text-align: center;
+  align-items: center;
+}
+.nav-item {
+  border-left: 1px solid rgba(150, 150, 150, 0.3);
+  border-right: 1px solid rgba(150, 150, 150, 0.3);
+  padding: 0 16px;
+}
+#navbar-info {
+  padding: 0 48px;
+}
+
+/* About */
+#about2 {
+  background-color: rgba(113, 113, 113, 0.16);
+}
+
+/* Job Information */
+.icon {
+  scale: 2.3;
+  text-align: center;
+}
+
+.present {
+  background-color: #228be6;
+  color: #fff;
+  border-radius: 10px;
+  padding-inline: 16px;
+}
+.timeline {
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+.timeline li {
+  position: relative;
+  display: flex;
+}
+
+.timeline li:before {
+  content: "";
+  position: absolute;
+  padding: 5px;
+  margin-top: 30px;
+  margin-right: 50px;
+
+  background-color: #228be6;
+  border-radius: 50%;
+}
+
+.hobby-icon {
+  margin-left: 20px;
+  scale: 1.8;
+
+  border-radius: 50%;
+  border: 1px solid #74c0fc;
+  width: 36px;
+  height: 36px;
+}
+.hobby p {
+  margin-top: 50px;
+}
+
+#vt1 {
+  color: #74c0fc;
+  margin: 8px 6px;
+}
+#vt2 {
+  color: #74c0fc;
+  margin: 10px 12px;
+}
+#vt3 {
+  color: #74c0fc;
+  margin: 10px 10px;
+}
+#vt4 {
+  color: #74c0fc;
+  margin: 8px 6px;
+}
+
+.job-skill p {
+  margin-left: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.skill {
+  height: 5px;
+  width: 80%;
+  background-color: #e9ecef;
+  margin: 24px;
+}
+.skill-icon {
+  text-align: right;
+  padding-right: 10px;
+  line-height: 40px;
+  color: white;
+}
+.eng {
+  height: 5px;
+  width: 60%;
+  background-color: #228be6;
+}
+.jpn {
+  height: 5px;
+  width: 20%;
+  background-color: #228be6;
+}
+
+.basic {
+  height: 5px;
+  width: 80%;
+  background-color: #228be6;
+}
+.jvs {
+  height: 5px;
+  width: 60%;
+  background-color: #228be6;
+}
+.node {
+  height: 5px;
+  width: 20%;
+  background-color: #228be6;
+}
+.bt5 {
+  height: 5px;
+  width: 40%;
+  background-color: #228be6;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  padding: 16px;
+  border: 1px solid #adb5bd;
+}
+
+/* project */
+
+.project-info {
+  font-size: 18px;
+  margin: 16px;
+  height: 50px;
+}
+
+.project-info-title {
+  width: 25%;
+  text-align: center;
+}
+
+.introduce ul {
+  list-style: none;
+  font-size: 18px;
+  padding: 24px;
+  border: 1px solid #adb5bd;
+}
+
+.introduce ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+.container table tr {
+  border: 1px solid #adb5bd;
+}
+.container table {
+  border-collapse: collapse;
+}
+
+/* Footer */
+#footer ul {
+  list-style: none;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.contact {
+  display: inline-block;
+  padding: 0 24px;
+  scale: 1.5;
+}
+.contact a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background-color: #228be6;
+}
+.contact a i {
+  color: #74c0fc;
+}

@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  /* banner */
+
+  #banner h1 {
+    font-size: 24px;
+  }
+
+  #banner span {
+    font-size: 14px;
+    margin-left: auto;
+  }
+
+  /* navbar */
+  #navbar-info {
+    display: none;
+  }
+  .nav-list {
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+  }
+  nav li {
+    border-left: none;
+    border-right: none;
+  }
+  /* about */
+  #about {
+    grid-template-columns: 1fr;
+    width: 350px;
+  }
+
+  /* Job container */
+  .job-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* certificate */
+  .certificates {
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+  }
+  .certificate-img {
+    margin-left: 10%;
+  }
+  .certificate {
+    border-bottom: 1px solid #ffd2d2;
+  }
+  /* project */
+
+  .projects {
+    grid-template-columns: 1fr;
+    width: 485px;
+  }
+  .introduce {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid #adb5bd;
+  }
+  .introduce div {
+    margin: 0 60px;
+  }
+
+  /* footer */
+  .container {
+    max-width: 500px;
+  }
+}
